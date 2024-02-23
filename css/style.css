@@ -42,3 +42,31 @@ body {
 .title.subtitle{
     padding: 0;
 }
+
+
+/* secondo box */
+
+.card-product {
+    background-color: white;
+    align-items: center;
+    display: block;
+}
+.col-1{
+
+}
+
+.row {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+
+.card-product img {
+    width: 200px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.card-product figure{
+    flex-shrink: 0;
+}
