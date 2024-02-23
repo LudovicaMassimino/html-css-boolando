@@ -1,0 +1,44 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+menu,ol,ul {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+}
+
+/* sfondo pagina */
+body {
+    background-color: cornflowerblue;
+}
+
+/* primo box */
+.content{
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    padding: 20px; 
+}
+
+.title.subtitle{
+    padding: 0;
+}
