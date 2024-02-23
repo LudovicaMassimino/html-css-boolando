@@ -50,6 +50,7 @@ body {
     background-color: white;
     align-items: center;
     display: block;
+    border: 1px solid #e7e7e7;
 }
 .col-1{
 
@@ -81,4 +82,5 @@ body {
 
 .details {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
