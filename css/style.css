@@ -70,3 +70,15 @@ body {
 .card-product figure{
     flex-shrink: 0;
 }
+
+.brand {
+    font-size: 14px;
+}
+.price{
+    color: red;
+    font-size: 14px;
+}
+
+.details {
+    font-family: Arial, Helvetica, sans-serif;
+}
