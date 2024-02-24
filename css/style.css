@@ -24,23 +24,23 @@ body {
 
 /* primo box */
 .content{
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .container{
     display: flex;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     background-color: white;
     justify-content: center;
 }
-.card{
-    background-color: white;
-    padding: 20px; 
-}
 
-.title.subtitle{
-    padding: 0;
+.container.title {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -51,9 +51,6 @@ body {
     align-items: center;
     display: block;
     border: 1px solid #e7e7e7;
-}
-.col-1{
-
 }
 
 .row {
